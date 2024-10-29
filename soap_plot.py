@@ -118,7 +118,7 @@ def find_and_compare_files(directory, section):
     print(f"Number of files with 100% similarity: {count_100_similarity}")
 
     # 결과를 파일에 기록 (모든 파일 포함)
-    output_path = "/Users/hjy/Desktop/section_o.txt"
+    output_path = "/Users/hjy/Desktop/result.txt"
     with open(output_path, "w") as file:
         file.write(f"Total number of file pairs: {total_pairs}\n")
         file.write(f"Number of files with 100% similarity: {count_100_similarity}\n")
