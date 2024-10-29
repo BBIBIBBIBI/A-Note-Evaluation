@@ -109,6 +109,6 @@ html_diff_path = f"/Users/hjy/Desktop/{note_code}-comparison-{section}.html"
 with open(html_diff_path, 'w', encoding='utf-8') as f:
     f.write(dmp_html_output)
 
-print(f"HTML diff가 저장되었습니다: {html_diff_path}")
+print(f"HTML diff saved to: {html_diff_path}")
 
 
